@@ -1,0 +1,41 @@
+.hero{
+    max-width: 1440px;
+    padding: 32px;
+    gap: 16px;
+}
+
+.hero__banner{
+    position: relative;
+    background: linear-gradient(rgb(0 0 0), rgba(0 0 0 0.80));
+}
+
+.hero__banner-promo h2{
+    position: absolute;
+    top: 33%; /* Centrar verticalmente */
+    left: 10%; /* Centrar horizontalmente */
+    transform: translate(0, -50%); /* Centrar completamente */
+    color: var(--color-blanco);
+    background-color: rgba(0, 0, 0, 0.01); /* Fondo semitransparente */
+    padding: 10px;
+    font-size: 52px;
+}
+
+.hero__banner-promo p{
+    position: absolute;
+    color: var(--color-blanco);
+    font-size: 22px;
+    top: 55%;
+    left: 11%;
+    transform: translate(0, -60%);
+    background-color: rgba(0, 0, 0, 0.01); 
+}
+
+.hero__banner-link a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: var(--color-blanco);
+    background-color: var(--color-azul);
+    text-decoration: none;
+    transform: translate(120%, -200%);
+}

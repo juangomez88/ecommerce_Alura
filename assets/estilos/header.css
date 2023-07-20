@@ -3,6 +3,7 @@
     padding: 32px 0;
     align-items: center;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .header_container{
@@ -53,3 +54,4 @@
     color: var(--color-blanco);
     background: var(--color-azul);
 }
+

@@ -1,0 +1,101 @@
+.rodapie{
+    display: flex;
+    background: var(--color-back);
+    justify-content: flex-star;
+}
+
+.rodapie__logo{
+    margin: 5rem 0 0 13rem ;
+    background-color: var(--color-back);
+}
+
+.footer__contenido{
+    display: flex;
+    background-color: var(--color-back);
+    align-items: flex-start;
+}
+
+.footer__contenido-formulario{
+    margin: 8px 10px px 10px;
+    width: 560px;
+}
+
+.footer__contenido-formulario h5{
+    padding-top: 2.5rem;
+    background-color: var(--color-back);
+
+}
+
+.formulario__input-nombre{
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.formulario__input-mensaje{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    
+}
+
+.formulario__input-nombre input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    
+}
+
+.formulario__input-mensaje input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    
+}
+
+.formulario-btn{
+    background: var(--color-back);
+}
+
+.formulario-btn input[type="submit"]{
+    background-color: var(--color-azul);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 8px;
+}
+
+.footer__contenido-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8rem;
+    background: var(--color-back);
+}
+
+.footer__contenido-links a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--color-letra_1);
+    background-color: var(--color-back);
+}
+
+.footer__contenido-formulario{
+    margin-left: auto;
+    padding: 4rem;
+    background: var(--color-back);
+}
+
+.register {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: var(--color-letra_1);
+    font-size: 16px;
+}

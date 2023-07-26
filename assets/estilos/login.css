@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Raleway";
+    width: 100%;
+}
+
+.login{
+    display: flex;
+    background: var(--color-gris); 
+}
+
+.login__inicio{
+    background: var(--color-gris);
+    height: 300px;
+    margin:25px 639px;
+    
+}
+
+.login__inicio h4{
+    text-align: center;
+    background-color: var(--color-gris);
+}
+
+.login__inicio-email{
+    padding: 10px;
+    color: #fff;
+}
+
+.login__inicio-email input{
+    padding: 10px 200px 0 0;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid var(--color-gris);
+}
+
+.login__inicio-password{
+    padding: 10px;
+}
+
+.login__inicio-password input{
+    padding: 10px 200px 0 0;
+    border: none;
+    border-bottom: 1px solid var(--color-gris);
+    color: #fff;
+}
+
+.login__inicio-btn{
+    padding: 10px;
+}
+
+.login__inicio button{
+    width: 100%;
+    background-color: var(--color-azul);
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 0.5px;
+    color: #fff;
+}

@@ -27,6 +27,16 @@
     padding: 0.5rem;
 }
 
+.productos__cabecera button{
+    width: 90%;
+    background-color: var(--color-azul);
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px 10px;
+    color: #fff;
+}
+
 .productos__titulo{ 
     display: flex;
     justify-content: center;
@@ -36,8 +46,25 @@
 }
 
 .productos-producto{
+    display: flex;
     margin: 5px;
     padding-bottom: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.productos-producto-iconos{
+    display: flex;
+    margin-left: auto;
+    position: relative;
+}
+
+.productos-producto-iconos i{
+    position: relative;
+    top: 25px;
+    padding: 0 15px;
+    background-color: transparent;
+    color: #fff;
 }
 
 .productos-producto h4{
